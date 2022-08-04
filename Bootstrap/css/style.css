@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+#title {
+  background-color: #212529;
+}
+
+nav {
+  padding: 0 1% 0 1%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+#profilpic {
+  width: 20vw;
+  opacity: 0.699;
+}
+
+li {
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  /*font-family: 'Ubuntu', sans-serif;*/
+}
+
+#txtMain {
+  margin-bottom: 5vh;
+}
+
+.container-fluid {
+  padding: 3% 10%;
+}
+
+#aboutme {
+  padding: 3%;
+  background-color: #21252917;
+  min-height: 75vh;
+}
+
+h3 {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+p {
+  margin-top: 5.2vh;
+  padding: 0 34% 0 34%;
+  font-size: 1.1rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+#skills {
+  color: white;
+  padding: 3%;
+  background-color: #212529;
+  min-height: 75vh;
+}
+
+#contact {
+  color: white;
+  padding: 3%;
+  background-color: #212529;
+  min-height: 50 vh;
+  padding-top: 7%;
+}
+
+.btndiv {
+  max-width: 45vw;
+}
+
+.Photography {
+  padding: 5% 0 5% 0;
+  text-align: center;
+  background-color: #21252917;
+  min-height: 75vh;
+}
+.Photography > h3 {
+  margin-bottom: 5%;
+}
+
+.imgcarou {
+  width: 63vw;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+  filter: invert(100%);
+}
+
+.card-img-top {
+  width: 4vw;
+}
+.card-body {
+  color: black;
+}
+
+.card-text {
+  padding: 0;
+}
+
+.card {
+  min-height: 25vh;
+}
+
+footer {
+  color: white;
+  background-color: #212529;
+  min-height: 40vh;
+  margin-top: 0;
+}
